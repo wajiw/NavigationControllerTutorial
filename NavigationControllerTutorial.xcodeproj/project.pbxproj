@@ -16,6 +16,10 @@
 		2F4002AD13EB605800729B80 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F4002AB13EB605800729B80 /* MainWindow.xib */; };
 		2F4002B013EB605800729B80 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4002AF13EB605800729B80 /* RootViewController.m */; };
 		2F4002B313EB605800729B80 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F4002B113EB605800729B80 /* RootViewController.xib */; };
+		2F4002BD13EB6FE600729B80 /* PageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4002BB13EB6FE600729B80 /* PageOneViewController.m */; };
+		2F4002BE13EB6FE600729B80 /* PageOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F4002BC13EB6FE600729B80 /* PageOneViewController.xib */; };
+		2F4002C213EB834F00729B80 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4002C013EB834D00729B80 /* ModalViewController.m */; };
+		2F4002C313EB834F00729B80 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F4002C113EB834D00729B80 /* ModalViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +27,23 @@
 		2F40029913EB605800729B80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F40029B13EB605800729B80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F40029D13EB605800729B80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F4002A113EB605800729B80 /* NavigationControllerTutorial-Info.plist */ = {isa = PBXFileReference; path = "NavigationControllerTutorial-Info.plist"; sourceTree = "<group>"; };
+		2F4002A113EB605800729B80 /* NavigationControllerTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationControllerTutorial-Info.plist"; sourceTree = "<group>"; };
 		2F4002A313EB605800729B80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F4002A513EB605800729B80 /* NavigationControllerTutorial-Prefix.pch */ = {isa = PBXFileReference; path = "NavigationControllerTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		2F4002A513EB605800729B80 /* NavigationControllerTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationControllerTutorial-Prefix.pch"; sourceTree = "<group>"; };
 		2F4002A613EB605800729B80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F4002A813EB605800729B80 /* NavigationControllerTutorialAppDelegate.h */ = {isa = PBXFileReference; path = NavigationControllerTutorialAppDelegate.h; sourceTree = "<group>"; };
+		2F4002A813EB605800729B80 /* NavigationControllerTutorialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationControllerTutorialAppDelegate.h; sourceTree = "<group>"; };
 		2F4002A913EB605800729B80 /* NavigationControllerTutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerTutorialAppDelegate.m; sourceTree = "<group>"; };
 		2F4002AC13EB605800729B80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2F4002AE13EB605800729B80 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		2F4002AE13EB605800729B80 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		2F4002AF13EB605800729B80 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		2F4002B213EB605800729B80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		2F4002B913EB64BF00729B80 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		2F4002BA13EB6FE600729B80 /* PageOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageOneViewController.h; sourceTree = "<group>"; };
+		2F4002BB13EB6FE600729B80 /* PageOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageOneViewController.m; sourceTree = "<group>"; };
+		2F4002BC13EB6FE600729B80 /* PageOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageOneViewController.xib; sourceTree = "<group>"; };
+		2F4002BF13EB834D00729B80 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		2F4002C013EB834D00729B80 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		2F4002C113EB834D00729B80 /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +97,13 @@
 				2F4002AF13EB605800729B80 /* RootViewController.m */,
 				2F4002B113EB605800729B80 /* RootViewController.xib */,
 				2F4002A013EB605800729B80 /* Supporting Files */,
+				2F4002B913EB64BF00729B80 /* Constants.h */,
+				2F4002BA13EB6FE600729B80 /* PageOneViewController.h */,
+				2F4002BB13EB6FE600729B80 /* PageOneViewController.m */,
+				2F4002BC13EB6FE600729B80 /* PageOneViewController.xib */,
+				2F4002BF13EB834D00729B80 /* ModalViewController.h */,
+				2F4002C013EB834D00729B80 /* ModalViewController.m */,
+				2F4002C113EB834D00729B80 /* ModalViewController.xib */,
 			);
 			path = NavigationControllerTutorial;
 			sourceTree = "<group>";
@@ -151,6 +169,8 @@
 				2F4002A413EB605800729B80 /* InfoPlist.strings in Resources */,
 				2F4002AD13EB605800729B80 /* MainWindow.xib in Resources */,
 				2F4002B313EB605800729B80 /* RootViewController.xib in Resources */,
+				2F4002BE13EB6FE600729B80 /* PageOneViewController.xib in Resources */,
+				2F4002C313EB834F00729B80 /* ModalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +184,8 @@
 				2F4002A713EB605800729B80 /* main.m in Sources */,
 				2F4002AA13EB605800729B80 /* NavigationControllerTutorialAppDelegate.m in Sources */,
 				2F4002B013EB605800729B80 /* RootViewController.m in Sources */,
+				2F4002BD13EB6FE600729B80 /* PageOneViewController.m in Sources */,
+				2F4002C213EB834F00729B80 /* ModalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

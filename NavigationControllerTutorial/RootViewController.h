@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController {
-
+@interface RootViewController : UITableViewController <UIActionSheetDelegate>{
+    NSMutableArray *menuList;
 }
 
+@property(nonatomic, retain) NSMutableArray *menuList;
+
+- (IBAction)styleAction:(id)sender;
 
 @end
